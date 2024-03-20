@@ -1,0 +1,95 @@
+.index_banner_block {
+  background-image: url(../image/index_banner_desktop.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.index_banner_height {
+  height: 540px;
+}
+
+.index_text {
+  margin: 0 auto;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.index_text p {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.index_button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50px;
+  width: 160px;
+  text-align: center;
+  /* background: #fcd839; */
+  background: linear-gradient(to right, #2cb320, #4facfe); /* 设置 hover 后的渐变背景色 */
+  color: #fff; 
+}
+
+.index_button:hover {
+  background: linear-gradient(to right, #4facfe, #2cb320); /* 设置 hover 后的渐变背景色 */
+  animation: shake 0.5s ease; /* 添加 shake 动画效果 */
+  color: #fff; 
+}
+.swiper-slide {
+  height: 260px;
+  display: flex;
+  align-items: center;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: #0054a5;
+}
+
+.case_button a{
+  color: #fff;
+  text-decoration: underline;
+  padding: 10px 20px;
+  background: #036520;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.case_button a:hover{
+  background: #fcd839;
+  color: #2c2c2c;
+  
+}
+
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}

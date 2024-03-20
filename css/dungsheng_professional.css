@@ -1,0 +1,72 @@
+.banner_block {
+  background-image: url(../image/banner_desktop_2.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.index_text {
+  margin: 0 auto;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.title_CN {
+  color: #070302;
+}
+
+.title_EN {
+  color: #34553a;
+}
+
+.title_line {
+  border: #34553a 1px solid;
+  width: 70px;
+}
+
+.about_content {
+  justify-content: center;
+}
+
+/* 證照 */
+
+.pro_text {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  background: #fff;
+  padding: 10px;
+  width: 350px;
+  transition: all 0.3s ease; /* 添加过渡效果 */
+}
+
+.pro_text:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
+  transform: scale(1.1); /* 放大 */
+}
+
+.pro_text img {
+  width: 79px;
+  height: auto;
+}
+
+.pro_block {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  max-width: 1330px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}

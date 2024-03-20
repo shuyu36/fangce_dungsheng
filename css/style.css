@@ -1,0 +1,395 @@
+body {
+  font-family: "Noto Sans TC", "Montserrat", sans-serif, Verdana;
+  letter-spacing: 2px;
+  background: #f4f4f4;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+header {
+  background-color: #0054a5;
+  color: #ffffff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  max-width: 1520px;
+  margin: 50px auto;
+  padding: 20px 100px;
+}
+
+/*-- 導覽列 --*/
+.navbar-nav {
+  align-items: center;
+}
+.container-fluid {
+  max-width: 1620px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #fcd839;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-brand {
+  color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fcd839;
+}
+
+/* 共用 */
+
+.text_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.text_title_1st {
+  font-size: 25px;
+  color: #0054a5;
+  font-weight: bold;
+}
+.text_title_2nd {
+  font-size: 22px;
+  color: #9f9f9f;
+  font-weight: bold;
+}
+.line {
+  border-style: solid;
+  border-color: #036520;
+  border-width: 2px 0 0 0;
+  width: 70.51px;
+  height: 0px;
+  position: relative;
+}
+
+/* banner */
+.banner_height {
+  height: 540px;
+}
+
+.title_CN {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.title_EN {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* ------------關於東昇------------ */
+.about_content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 30px;
+}
+
+.about_text_blue {
+  font-size: 23px;
+  font-weight: bold;
+  color: #0054a5;
+}
+
+.about_text_green {
+  color: #036520;
+}
+.about_text_black {
+}
+.about_con2 {
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.about_con2_text {
+  max-width: 400px;
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.about_button {
+  margin-left: -160px;
+  margin-top: -70px;
+
+  display: inline-block;
+  padding: 15px 20px;
+  border-radius: 50px;
+  width: 200px;
+  border: none;
+  background-color: #fcd839;
+  color: #0054a5;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.6s ease-out;
+}
+
+.about_button:hover {
+  background-color: #036520;
+  color: #fff;
+  animation: shake 0.6s ease; /* 添加 shake 动画效果 */
+}
+
+.about_block {
+  border-bottom: 2px solid #c2c2c2;
+  padding-bottom: 70px;
+}
+
+/* ------------客戶案例------------ */
+
+.case_text_green {
+  font-size: 23px;
+  color: #036520;
+  font-weight: bold;
+}
+
+.line_green {
+  border: 1px solid #036520;
+  height: 74px;
+}
+
+.case_title_text {
+  display: flex;
+  gap: 20px;
+}
+
+.case_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+/* 案例圖 */
+.case_img {
+  background: #fff;
+  color: #036520;
+  position: relative;
+  margin: 0 10px;
+}
+.case_img img {
+  margin-top: -30px;
+}
+
+/* 聯絡連結 */
+.contact_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact_text {
+  display: flex;
+  gap: 5px;
+}
+.contact_text img {
+  width: 34px;
+  height: 34px;
+}
+
+@keyframes shakeY {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.contact_link a {
+  display: inline-block;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #0054a5;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+  transition: background 0.5s ease;
+}
+
+.contact_link a:hover {
+  background: #0054a5;
+  color: #fff;
+  animation: shakeY 0.5s ease; /* 添加 shake 动画效果 */
+}
+
+/* footer */
+footer {
+  background-color: #1e2128;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #fcd839;
+}
+
+.footer_icon img {
+  width: 27px;
+  height: 27px;
+}
+
+.footer_block {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+  .contact_block {
+    flex-direction: column;
+  }
+  .contact_text {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .about_content {
+    flex-direction: column;
+  }
+  .about_con2_text {
+    max-width: 100%;
+  }
+
+  .about_con2_text {
+    max-width: 100%;
+  }
+  .about_con2 {
+    align-items: center;
+  }
+  .about_button {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: -30px;
+    padding: 15px 20px;
+    border-radius: 50px;
+  }
+
+  .about_con1 img {
+    width: 450px;
+  }
+  .case_content {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .line_green {
+    border: 1px solid #036520;
+    width: 154px;
+    height: 0;
+  }
+}
+@media (max-width: 768px) {
+  section {
+    padding: 20px 50px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .text_title_1st {
+    font-size: 22px;
+  }
+  .text_title_2nd {
+    font-size: 19px;
+  }
+  .case_text_green {
+    font-size: 20px;
+  }
+  .about_text_blue {
+    font-size: 20px;
+  }
+
+  .about_block {
+    padding-bottom: 10px;
+  }
+
+  /* footer */
+  footer a {
+    font-size: 14px;
+  }
+  .footer_logo {
+    text-align: center;
+  }
+
+  .footer_block {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}
+@media (max-width: 576px) {
+  section {
+    padding: 20px;
+  }
+  .banner_block {
+    height: 240px;
+  }
+  .title_CN {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .title_EN {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .banner_height {
+    height: 230px;
+  }
+  .about_con1 img {
+    width: 300px;
+  }
+}

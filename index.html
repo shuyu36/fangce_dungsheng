@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- 字體 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <!-- AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- swiper CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>東昇清潔</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">東昇清潔工程有限公司</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >關於東昇</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./dungsheng_service.html">服務項目</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./dungsheng_professional.html"
+                  >專業證照</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./dungsheng_case.html">知名案例</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./dungsheng_contact.html"
+                  >免費諮詢預約</a
+                >
+              </li>
+              <div style="display: flex; gap: 10px">
+                <a href="tel:0933215628" target="_blank">
+                  <img
+                    src="./image/phone.svg"
+                    alt="電話icon"
+                    width="30px"
+                    height="30px"
+                  />
+                </a>
+                <a
+                  href="https://www.facebook.com/dongshengcleaning/"
+                  target="_blank"
+                >
+                  <img
+                    src="./image/fb.svg"
+                    alt="facebook icon"
+                    width="30px"
+                    height="30px"
+                  />
+                </a>
+                <a href="https://line.me/ti/p/~0989144508" target="_blank">
+                  <img
+                    src="./image/line.svg"
+                    alt="LINE icon"
+                    width="30px"
+                    height="30px"
+                  />
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--------------- banner --------------->
+    <article class="index_banner_block index_banner_height">
+      <div style="max-width: 1420px; margin: 0 auto">
+        <div class="index_text index_banner_height">
+          <p>
+            專業清潔服務<br />
+            讓空間重獲清新與明亮
+          </p>
+          <a href="./dungsheng_contact.html" class="index_button">立即免費諮詢</a>
+        </div>
+      </div>
+    </article>
+
+    <!---------------------------- 側邊icon ---------------------------->
+    <article>
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          position: fixed;
+          right: 0;
+          bottom: 30%;
+          z-index: 2;
+          width: 70px;
+        "
+      >
+        <div
+          class="rectangle"
+          style="
+            background: #fcd839;
+            width: 120px;
+            height: 120px;
+            top: 83px;
+            transform-origin: 0 0;
+            transform: rotate(-45deg) scale(1, 1);
+          "
+        >
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              margin-top: 25px;
+              transform: rotate(45deg) scale(1, 1);
+            "
+          >
+            <div style="font-weight: 700; left: 22px">〈</div>
+            <a
+              href=""
+              target="_blank"
+              style="
+                writing-mode: vertical-lr;
+                color: #000000;
+                font-weight: bold;
+              "
+            >
+              表單諮詢
+            </a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!--------------- 關於東昇 --------------->
+    <section class="about_block">
+      <!-- 標題 -->
+      <div class="text_title">
+        <div style="display: flex; flex-direction: column">
+          <span class="text_title_1st">關於東昇</span>
+          <span class="text_title_2nd">ABOUT US</span>
+          <div class="line"></div>
+        </div>
+      </div>
+      <!-- 獎狀內文 -->
+      <div class="about_content about_con1">
+        <img
+          src="./image/about_img1.webp"
+          alt="證書"
+          width="520px"
+          height="369px"
+        />
+        <div style="display: flex; flex-direction: column; gap: 10px">
+          <p class="about_text_blue">
+            東昇清潔<br />
+            成立於七十七年，資本額新台幣：壹仟萬元整。<br />
+          </p>
+          <p class="about_text_green">
+            秉持著客戶滿意、品質肯定、價格合理的完善服務理念來經營，致力以穩健的腳步向上發展中。
+          </p>
+          <p class="about_text_black">
+            在我們的經營理念中，不但要創造第一，更要提供最頂尖及完善的服務。<br />
+            有最專業的技術，最貼心的服務，才能滿足每一位客戶的需要。能有今日的成就，全賴各員工的團隊合作精神。
+          </p>
+          <div style="display: flex; align-items: center; gap: 6px">
+            <span class="about_text_blue">35+</span
+            ><span class="about_text_green">專業經驗</span>
+          </div>
+          <p class="about_text_black">
+            我們深信要客戶滿意，就必須先留心客戶的需要而作出相應的服務。<br />
+            因此員工們眾志成城，以熱誠及專注，處理每項工作，務求令客戶得到滿意的服務。<br />
+            東昇清潔的管理方式，注重雙邊溝通。管理層與客戶及前線員工經常保持溝通，共同確立工作要求、編制工序規格，融合專長，並嚴格執行實地巡查，了解前線員工面對的工作困難，加以督導輔助。<br />
+            請給我們表現的機會喔!
+          </p>
+        </div>
+      </div>
+      <!-- 工程實績 -->
+      <div class="about_content about_con2">
+        <div class="about_con2_text">
+          <p class="about_text_blue" style="margin-bottom: 20px">
+            我們的工程實績
+          </p>
+          <p class="about_text_black">
+            救國團、中國青年服務社、地球村、台灣銀行、華南銀行、第一商業銀行、六星集股份有限公司、德州儀器工業股份有限公司、經濟部水利署、新北市團委會、美麗華百貨、燦坤實業、誠品、六福皇宮、六福村、財政部臺北國稅局、臺北市大安分局、臺北市政府財政局、內湖運動中心、新湖國小、福星國小、內湖高中、佳林國中、新北市政府勞工局、經緯中心大樓、矽谷TOP企業總部、大湖科學園區第三期、海帝溫泉社區
+          </p>
+        </div>
+        <div style="display: flex; flex-direction: column">
+          <img
+            src="./image/about_img2.webp"
+            alt="服務項目"
+            width="500px"
+            height="320px"
+            style="max-width: 500px"
+          />
+          <a href="./dungsheng_contact.html" class="about_button">立即免費諮詢</a>
+        </div>
+      </div>
+    </section>
+
+    <!--------------- 客戶案例 --------------->
+    <section>
+      <!-- 標題 -->
+      <div class="text_title">
+        <div style="display: flex; flex-direction: column">
+          <span class="text_title_1st">客戶案例</span>
+          <span class="text_title_2nd">CASE</span>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <!-- 介紹文 -->
+      <div class="case_content">
+        <p class="case_text_green">東昇清潔已是近40年的老公司了</p>
+        <div class="line_green"></div>
+        <p style="max-width: 800px">
+          高等行政法院、財政部、國稅局、臺灣銀行各分行、合作金庫銀行、第一銀行各分行、華南銀行各分行、誠品書局、中華電信、臺北市政府婦幼警察隊及少年隊、臺北市政府大安分局、台北市消防局、財團法人金融消費評議中心、財團法人中小企業信用保證基金、地球村美日語各分校……等，都是我們服務過的客戶。<br /><br />
+          這代表著我們的專業與品質是受大眾肯定的。
+        </p>
+      </div>
+
+      <!-- case輪播 -->
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- 案例一 -->
+          <div class="swiper-slide">
+            <div class="case_img">
+              <div style="background: rgb(255, 255, 255); padding: 10px">
+                <img src="./image/case_1.webp" alt="" />
+                <div
+                  class="case_line"
+                  style="border: 1px solid; margin-top: 10px"
+                ></div>
+                <p>水塔清理</p>
+              </div>
+            </div>
+          </div>
+          <!-- 案例二 -->
+          <div class="swiper-slide">
+            <div class="case_img">
+              <div style="background: rgb(255, 255, 255); padding: 10px">
+                <img src="./image/case_2.webp" alt="" />
+                <div
+                  class="case_line"
+                  style="border: 1px solid; margin-top: 10px"
+                ></div>
+                <p>水塔清理</p>
+              </div>
+            </div>
+          </div>
+          <!-- 案例三 -->
+          <div class="swiper-slide">
+            <div class="case_img">
+              <div style="background: rgb(255, 255, 255); padding: 10px">
+                <img src="./image/case_3.webp" alt="" />
+                <div
+                  class="case_line"
+                  style="border: 1px solid; margin-top: 10px"
+                ></div>
+                <p>室內清潔維護</p>
+              </div>
+            </div>
+          </div>
+          <!-- 案例四 -->
+          <div class="swiper-slide">
+            <div class="case_img">
+              <div style="background: rgb(255, 255, 255); padding: 10px">
+                <img src="./image/case_4.webp" alt="" />
+                <div
+                  class="case_line"
+                  style="border: 1px solid; margin-top: 10px"
+                ></div>
+                <p>外牆清清洗工程</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- 案例五 -->
+          <div class="swiper-slide">
+            <div class="case_img">
+              <div style="background: rgb(255, 255, 255); padding: 10px">
+                <img src="./image/case_5.webp" alt="" />
+                <div
+                  class="case_line"
+                  style="border: 1px solid; margin-top: 10px"
+                ></div>
+                <p>居家清潔、地毯清洗</p>
+              </div>
+            </div>
+          </div>
+          <!-- 案例六 -->
+          <div class="swiper-slide">
+            <div class="case_img">
+              <div style="background: rgb(255, 255, 255); padding: 10px">
+                <img src="./image/case_6.webp" alt="" />
+                <div
+                  class="case_line"
+                  style="border: 1px solid; margin-top: 10px"
+                ></div>
+                <p>園藝修剪</p>
+              </div>
+            </div>
+          </div>
+          <!-- 案例七 -->
+          <div class="swiper-slide">
+            <div class="case_img">
+              <div style="background: rgb(255, 255, 255); padding: 10px">
+                <img src="./image/case_7.webp" alt="" />
+                <div
+                  class="case_line"
+                  style="border: 1px solid; margin-top: 10px"
+                ></div>
+                <p>機關清潔維護</p>
+              </div>
+            </div>
+          </div>
+          <!-- 案例八 -->
+          <div class="swiper-slide">
+            <div class="case_img">
+              <div style="background: rgb(255, 255, 255); padding: 10px">
+                <img src="./image/case_8.webp" alt="" />
+                <div
+                  class="case_line"
+                  style="border: 1px solid; margin-top: 10px"
+                ></div>
+                <p>疫情嚴重、消毒殺菌</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="case_button" style="text-align: center; margin-top: 40px">
+        <a href="./dungsheng_case.html">MORE+</a>
+      </div>
+    </section>
+
+    <!--------------- 聯絡連結 --------------->
+    <article style="background-color: #fcd839">
+      <section style="margin-bottom: 0; padding: 20px">
+        <div class="contact_block">
+          <div class="contact_text">
+            <img
+              src="./image/contact_icon.svg"
+              alt="聯絡icon"
+              width="34px"
+              height="34px"
+            />
+            <p>
+              專業的技術，最貼心的服務<br />
+              清潔維護，病媒防治，消毒除蟲，水池水塔清洗，廢棄物清除，裝潢後清潔：機關學校公司大樓社區
+            </p>
+          </div>
+          <div class="contact_link">
+            <a href="">線上諮詢</a>
+            <a href="tel:0933215628" target="_blank">電話諮詢</a>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <!--------------- footer --------------->
+    <footer>
+      <section class="footer_block">
+        <div class="footer_logo">
+          <a class="navbar-brand" href="index.html">東昇清潔工程有限公司</a>
+          <p>台北除蟲，台北消毒，台北病媒防治，台北清潔，消毒</p>
+        </div>
+
+        <div class="footer_info">
+          <!-- icon -->
+          <div class="footer_icon">
+            <a href="tel:0933215628" target="_blank">
+              <img
+                src="./image/phone.svg"
+                alt="電話icon"
+                width="30px"
+                height="30px"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/dongshengcleaning/"
+              target="_blank"
+            >
+              <img
+                src="./image/fb.svg"
+                alt="facebook icon"
+                width="30px"
+                height="30px"
+              />
+            </a>
+            <a href="https://line.me/ti/p/~0989144508" target="_blank">
+              <img
+                src="./image/line.svg"
+                alt="LINE icon"
+                width="30px"
+                height="30px"
+              />
+            </a>
+          </div>
+          <!-- 內容 -->
+          <div>
+            <a href="https://maps.app.goo.gl/nH8vko1FabAU38vR8" target="_blank">
+              地址：台北市內湖區成功路二段250巷24號1樓</a
+            >
+            <br />
+
+            <a href="tel:0227929939" target="_blank">客服電話：02-2792-9939</a>
+            <br />
+
+            <a href="tel:0919651679" target="_blank">行動電話：0919-651-679</a>
+            <br />
+
+            <a href="tel:0227921769" target="_blank">傳真：02-2792-1769</a>
+            <br />
+          </div>
+        </div>
+      </section>
+      <p
+        style="
+          text-align: center;
+          font-size: 10px;
+          font-weight: normal;
+          padding-bottom: 10px;
+        "
+      >
+        Copyright © 2024 東昇清潔 All Rights Reserved.
+      </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/index_swiper.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

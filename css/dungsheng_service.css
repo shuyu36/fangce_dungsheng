@@ -1,0 +1,117 @@
+.banner_block {
+  background-image: url(../image/banner_desktop_1.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.index_text {
+  margin: 0 auto;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.title_CN {
+  color: #fff;
+
+}
+
+.title_EN {
+  color: #0054a5;
+
+}
+
+.title_line {
+  border: #0054a5 1px solid;
+  width: 70px;
+}
+
+/* 服務項目 */
+.service_block {
+  background: #e6e6e6;
+}
+
+.service_block ul {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+  padding: 0;
+}
+
+.service_block ul li:last-child {
+  grid-column: 2; /* 将最后一个项目放置在第二列 */
+}
+.service_text {
+  background-color: #0054a5;
+  text-align: center;
+  color: #fff;
+  margin: -10px 20px 0;
+  z-index: 100;
+  position: relative;
+}
+
+.service_text p:nth-child(1) {
+  font-size: 22px;
+  font-weight: bold;
+}
+.service_block ul li {
+  overflow: hidden; /* 确保图像不会溢出容器 */
+}
+
+.service_block ul li img {
+  transition: transform 0.5s ease; /* 添加过渡效果 */
+}
+
+.service_block ul li:hover img {
+  transform: scale(1.1); /* 放大 10% */
+}
+@media (max-width: 1400px) {
+  .service_block {
+    margin: 50px 20px;
+    padding: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .service_block ul {
+    gap: 50px;
+  }
+
+  .service_text p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .service_text p:nth-child(2) {
+    font-size: 16px;
+  }
+}
+@media (max-width: 991px) {
+  .service_text p:nth-child(1) {
+    font-size: 16px;
+  }
+  .service_text p:nth-child(2) {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .service_block ul {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+}
+@media (max-width: 576px) {
+  .service_block ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.banner_block {
+  background-position: 27%;
+  height: 240px;
+}
+}
