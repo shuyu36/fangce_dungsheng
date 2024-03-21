@@ -1,5 +1,5 @@
 body {
-  font-family: "Noto Sans TC", "Montserrat", sans-serif, Verdana;
+  font-family: "Noto Sans TC", "Montserrat", sans-serif, Verdana !important;
   letter-spacing: 2px;
   background: #f4f4f4;
   line-height: 1.5;
@@ -360,14 +360,12 @@ footer a:hover {
   footer a {
     font-size: 14px;
   }
-  .footer_logo {
-    text-align: center;
-  }
 
   .footer_block {
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    align-items: flex-start;
   }
 }
 @media (max-width: 576px) {
