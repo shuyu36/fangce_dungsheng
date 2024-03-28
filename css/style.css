@@ -123,7 +123,7 @@ section {
 }
 .about_con2 {
   justify-content: space-around;
-  align-items: flex-start;
+  /* align-items: flex-start; */
 }
 
 .about_con2_text {
@@ -148,8 +148,8 @@ section {
 }
 
 .about_button {
-  margin-left: -160px;
-  margin-top: -70px;
+  /* margin-left: -160px;
+  margin-top: -70px; */
 
   display: inline-block;
   padding: 15px 20px;
